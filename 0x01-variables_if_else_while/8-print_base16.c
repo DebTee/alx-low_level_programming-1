@@ -5,19 +5,15 @@
 */
 int main(void)
 {
-unsigned char a = '0';
-int i;
-for(i = 0; i < 10; i++)
-{
-putchar(a);
-a++;
+char i;
+  for (i = 48; i <= 57; i++)
+  {
+    putchar(i);
 }
-a = '1';
-for(i = 0; i < 6; i++)
-{
-putchar('0' + a);
-a++;
-}
+  for (i = 97; i <= 102; i++)
+  {
+    putchar(i);
+  }
 putchar('\n');
 return (0);
 }
